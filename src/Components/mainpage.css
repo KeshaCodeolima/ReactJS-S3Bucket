@@ -35,6 +35,15 @@
     background-color: rgb(240, 128, 128);
 }
 
+.btn2{
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 18px;
+    padding: 4px 16px;
+    border: none;
+    background-color: rgb(255, 48, 48);
+}
+
 table {
     margin-top: 24px;
     border-collapse: collapse;

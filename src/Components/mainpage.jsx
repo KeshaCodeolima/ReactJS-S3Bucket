@@ -48,6 +48,18 @@ function Mainpage() {
             alert("File Upload failed!");
         }
     };
+
+    const handleDelete = async (fileName) => {
+
+        try {
+            await axios.get(`http://localhost:3001/delete/${fileName}`);
+            alert("File Delete Successfully")
+            toshowTable();
+        } catch (error) {
+            console.error("Delete error:", error);
+            alert("File deletion failed!");
+        }
+    }
     return (
         <div className="main">
             <div className="text">
@@ -78,7 +90,7 @@ function Mainpage() {
                                     <tr key={index}>
                                         <td>{file.name}</td>
                                         <td>{file.size}KB</td>
-                                        <td><button className='btn2'>Delete</button></td>
+                                        <td><button className='btn2' onClick={() => handleDelete(file.name)}>Delete</button></td>
                                     </tr>
                                 ))
                             ) : (
