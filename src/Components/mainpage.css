@@ -1,0 +1,51 @@
+.main {
+    text-align: center;
+    margin-top: 6%;
+    margin-left: 36%;
+    margin-right: 36%;
+    padding: 70px 40px;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.text {
+    margin-top: -50px;
+}
+
+.btn {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 4px 140px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: rgb(165, 245, 165);
+}
+
+.btn1 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 4px 115.5px;
+    margin-left: 20px;
+    border-radius: 20px;
+    background-color: rgb(240, 128, 128);
+}
+
+table {
+    margin-top: 24px;
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: -10px;
+    display: none;
+}
+
+td,
+th,
+tr {
+    padding: 6px;
+    border: 1px solid black;
+}
